@@ -1,0 +1,22 @@
+### 实验报告 小猫钓鱼纸牌游戏
+
+作者：张昊 1927405160
+
+源代码文件夹：src/
+
+代码语言：C++ （C++11）
+
+文件编码：UTF-8
+
+### 编译运行方法
+
+项目基于CMake，可用支持CMake的IDE（如CLion、Visual Studio 2019等）打开并编译运行，也可以在命令行中运行以下命令：
+
+~~~bash
+$ cd Src
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ ./CatFishing    # 或为 ./CatFishing.exe
+~~~

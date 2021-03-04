@@ -1,0 +1,25 @@
+# Runtime Example for Linux
+# encoding: utf-8
+a s S4030050 0.018
+a s 01927405 0.018
+c 5
+a c C0628001 30000 0.0005 30
+c 8
+d 0 8200 salary
+c 11
+w 2 6000 buy a iPhone
+c 26
+d 1 10000 sell stock 1000
+n
+d 2 6060 repay the credit
+c 8
+d 0 8300 salary
+c 12
+w 2 2000 buy a television
+n
+d 2 2050 repay the credit
+# END_OF_RUN1
+c 8
+d 0 9000 salary
+w 0 10000 insurance
+c 15

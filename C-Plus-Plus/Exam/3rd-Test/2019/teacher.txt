@@ -1,0 +1,14 @@
+Aaron	26	Male	Math		2
+Abbott	31	Male	Chemistry	7
+Abel	56	Male	Chemistry	30
+Abne	43	Female	Math		21
+Booth	33	Male	Physics		10
+Borg	29	Male	Math		5
+Boris	55	Male	Math		29
+Bowen	48	Female	Chemistry	24
+Ian	30	Female	Math		6
+Ingram	31	Male	Physics		7
+Ira	51	Female	Math		25
+Isaac	29	Male	Physics		3
+Isidore	36	Male	Physics		12
+Ivan	60	Female	Math		35

@@ -1,0 +1,32 @@
+#!/bin/bash
+# Project: Sort  File: build
+# Created by holger on 2020/12/15.
+
+echo '> Pay attention to the working path of the script: MUST be `src/`'
+echo 'working path:' $(pwd)
+echo ''
+
+echo '* Build Started. '
+if [ ! -d ".cmake-build" ]; then
+  mkdir .cmake-build
+fi
+cd .cmake-build || exit
+cmake ..
+sleep 3
+make
+cd ..
+
+echo '* Moving files ...'
+if [ ! -d "out" ]; then
+  mkdir out
+fi
+cp .cmake-build/SortTester out/SortTester
+cp generator.py out/generator.py
+
+echo '* Build Finished. '
+echo ''
+
+echo '** Program working path MUST be `src/out/` !'
+echo '> Run `cd ./out` first!'
+echo '> Run `python3 ./generator.py` to generate data file, '
+echo '    or `./SortTester` to start. '
