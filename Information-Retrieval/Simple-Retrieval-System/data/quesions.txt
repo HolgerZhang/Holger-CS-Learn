@@ -1,0 +1,1000 @@
+Q101	Who killed Lee Harvey Oswald ?
+Q102	Who is the President of Ghana ?
+Q103	What is Head Start ?
+Q104	Which team won the Super Bowl in 1968 ?
+Q105	What two researchers discovered the double-helix structure of DNA in 1953 ?
+Q106	What percentage of the world 's plant and animal species can be found in the Amazon forests ?
+Q107	Who is section manager for guidance and control systems at JPL ?
+Q108	How many Vietnamese were there in the Soviet Union ?
+Q109	What was Agent Orange used for during the Vietnam War ?
+Q110	Which city has the oldest relationship as a sister-city with Los Angeles ?
+Q111	Who was the second man to walk on the moon ?
+Q112	How many times was pitcher , Warren Spahn , a 20-game winner in his 21 major league seasons ?
+Q113	When was Yemen reunified ?
+Q114	What is the capital of Uruguay ?
+Q115	Where is it planned to berth the merchant ship , Lane Victory , which Merchant Marine veterans are converting into a floating museum ?
+Q116	Who is the president of the Spanish government ?
+Q117	How many people did the United Nations commit to help restore order and distribute humanitarian relief in Somalia in September 1992 ?
+Q118	How many people on the ground were killed from the bombing of Pan Am Flight 103 over Lockerbie , Scotland , December 21 , 1988 ?
+Q119	What is the population of Ulan Bator , capital of Mongolia ?
+Q120	Where does most of the marijuana entering the United States come from ?
+Q121	Where is the Bulls basketball team based ?
+Q122	What is the length of border between the Ukraine and Russia ?
+Q123	How many people live in Tokyo ?
+Q124	What is the capital of California ?
+Q125	How many Grand Slam titles did Bjorn Borg win ?
+Q126	Who was the Democratic nominee in the American presidential election ?
+Q127	Where is Dartmouth College ?
+Q128	How rich is Bill Gates ?
+Q129	What is the capital of Kosovo ?
+Q130	What state does Charles Robb represent ?
+Q131	Who is the leading competitor of Trans Union Company ?
+Q132	Which type of submarine was bought recently by South Korea ?
+Q133	What nationality is Pope John Paul II ?
+Q134	Who was the captain of the tanker , Exxon Valdez , involved in the oil spill in Prince William Sound , Alaska , 1989 ?
+Q135	Who was President of Afghanistan in 1994 ?
+Q136	Who is the director of intergovernmental affairs for the San Diego county ?
+Q137	Where is the Keck telescope ?
+Q138	How many moons does Jupiter have ?
+Q139	What is the capital of Congo ?
+Q140	What is the capital of Italy ?
+Q141	What is the capital of Sri Lanka ?
+Q142	What was the first Gilbert and Sullivan opera ?
+Q143	What was the name of the computer in `` 2001 : A Space Odyssey '' ?
+Q144	When was the battle of the Somme fought ?
+Q145	When was the women 's suffrage amendment ratified ?
+Q146	Where was Harry Truman born ?
+Q147	Who was Secretary of State during the Nixon administration ?
+Q148	Who wrote `` The Pines of Rome '' ?
+Q149	Who wrote `` Hamlet '' ?
+Q150	What did Richard Feynman say upon hearing he would receive the Nobel Prize in Physics ?
+Q151	What type of bridge is the Golden Gate Bridge ?
+Q152	How far away is the moon ?
+Q153	What is Francis Scott Key best known for ?
+Q154	Who invented the paper clip ?
+Q155	How many dogs pull a sled in the Iditarod ?
+Q156	Who invented the electric guitar ?
+Q157	Name a flying mammal .
+Q158	How many hexagons are on a soccer ball ?
+Q159	Who is the leader of India ?
+Q160	What is the primary language of the Philippines ?
+Q161	What is the population of Japan ?
+Q162	Who killed Martin Luther King ?
+Q163	Who is the Greek God of the Sea ?
+Q164	Who is the fastest swimmer in the world ?
+Q165	Who was the president of Vichy France ?
+Q166	Who invented television ?
+Q167	Who made the first airplane ?
+Q168	Who made the first airplane that could fly ?
+Q169	How many astronauts have been on the moon ?
+Q170	Who is Barbara Jordan ?
+Q171	What was the name of the famous battle in 1836 between Texas and Mexico ?
+Q172	Who invented baseball ?
+Q173	Where can you find the Venus flytrap ?
+Q174	What did Vasco da Gama discover ?
+Q175	Who won the Battle of Gettysburg ?
+Q176	What is the largest snake in the world ?
+Q177	Where is the Valley of the Kings ?
+Q178	How many people live in Chile ?
+Q179	When was the first flush toilet invented ?
+Q180	Who is William Wordsworth ?
+Q181	What is California 's state bird ?
+Q182	Who is buried in the great pyramid of Giza ?
+Q183	Where do lobsters like to live ?
+Q184	What does NAFTA stand for ?
+Q185	When was Babe Ruth born ?
+Q186	Who wrote the Farmer 's Almanac ?
+Q187	What 's the farthest planet from the sun ?
+Q188	Who was the first U.S. president ever to resign ?
+Q189	Who invented the game Scrabble ?
+Q190	About how many soldiers died in World War II ?
+Q191	How much money does the Sultan of Brunei have ?
+Q192	What was the death toll at the eruption of Mount Pinatubo ?
+Q193	What 's the tallest building in New York City ?
+Q194	When did Geraldine Ferraro run for vice president ?
+Q195	What do ladybugs eat ?
+Q196	Where is Ayer 's rock ?
+Q197	What are John C. Calhoun and Henry Clay known as ?
+Q198	When was Hurricane Hugo ?
+Q199	Who is the richest person in the world ?
+Q200	What is the federal minimum wage ?
+Q201	What is California 's state tree ?
+Q202	Who was the first coach of the Cleveland Browns ?
+Q203	Who is the prophet of the religion of Islam ?
+Q204	Where is Tornado Alley ?
+Q205	Who is Peter Weir ?
+Q206	How many home runs did Babe Ruth hit in his $ lifetime ?
+Q207	Who was Buffalo Bill ?
+Q208	Where is the bridge over the river Kwai ?
+Q209	How many Superbowls have the 49ers won ?
+Q210	Who was the architect of Central Park ?
+Q211	Who invented paper ?
+Q212	Name a tiger that is extinct ?
+Q213	Where is Romania located ?
+Q214	When was the De Beers company founded ?
+Q215	Who is the richest woman in the world ?
+Q216	What is California 's capital ?
+Q217	What is the size of Argentina ?
+Q218	When was the San Francisco fire ?
+Q219	What was the man 's name who was killed in a duel with Aaron Burr ?
+Q220	What is the population of Mexico ?
+Q221	How hot is the core of the earth ?
+Q222	How long would it take to get from Earth to Mars ?
+Q223	What is the wingspan of a condor ?
+Q224	When was Microsoft established ?
+Q225	What 's the average salary of a professional baseball player ?
+Q226	Who invented basketball ?
+Q227	Who is Zebulon Pike ?
+Q228	How wide is the Atlantic Ocean ?
+Q229	What effect does a prism have on light ?
+Q230	What 's the longest river in the world ?
+Q231	Who was considered to be the father of psychology ?
+Q232	Who is Langston Hughes ?
+Q233	Who built the first pyramid ?
+Q234	What is the best-selling book of all time ?
+Q235	How many Stradivarius violins were ever made ?
+Q236	Who is Charles Lindbergh ?
+Q237	Who invented the game bowling ?
+Q238	What is the most expensive car in the world ?
+Q239	How much in miles is a ten K run ?
+Q240	How hot does the inside of an active volcano get ?
+Q241	What is the capital of Burkina Faso ?
+Q242	What is the capital of Haiti ?
+Q243	What is the population of Mozambique ?
+Q244	Who won the Superbowl in 1982 ?
+Q245	What is Martin Luther King Jr. 's real birthday ?
+Q246	What is the most common cancer ?
+Q247	When was the Triangle Shirtwaist fire ?
+Q248	Where is the Kalahari desert ?
+Q249	Who was the 33rd president of the United States ?
+Q250	At what speed does the Earth revolve around the sun ?
+Q251	How big is our $ galaxy in diameter ?
+Q252	What language is mostly spoken in Brazil ?
+Q253	Who assassinated President McKinley ?
+Q254	Who invented the radio ?
+Q255	What is anorexia nervosa ?
+Q256	What year did Montana become a state ?
+Q257	What were the names of the three ships used by Columbus ?
+Q258	Who was the 21st U.S. President ?
+Q259	Where was John Adams born ?
+Q260	Where is your corpus callosum ?
+Q261	What is the longest word in the English language ?
+Q262	Who invented silly putty ?
+Q263	What is the name of the Jewish alphabet ?
+Q264	Who was Maria Theresa ?
+Q265	What nationality was Jackson Pollock ?
+Q266	What is the state nickname of Mississippi ?
+Q267	Who used to make cars with rotary engines ?
+Q268	What is the tallest mountain ?
+Q269	What is Black Hills , South Dakota most famous for ?
+Q270	What kind of animal was Winnie the Pooh ?
+Q271	What 's another name for aspartame ?
+Q272	Where are the U.S. headquarters for Procter & Gamble ?
+Q273	What 's the formal name for Lou Gehrig 's disease ?
+Q274	Who owns CNN ?
+Q275	What is the name of a Salt Lake City newspaper ?
+Q276	Who was Jane Goodall ?
+Q277	When did Princess Diana and Prince Charles get married ?
+Q278	How many months does a normal human pregnancy last ?
+Q279	What format was VHS 's main competition ?
+Q280	Where is Logan International located ?
+Q281	What university was Woodrow Wilson President of ?
+Q282	Where is Basque country located ?
+Q283	What is `` Nine Inch Nails `` ?
+Q284	Where was Poe born ?
+Q285	What king was forced to agree to the Magna Carta ?
+Q286	What 's the name of Pittsburgh 's baseball team ?
+Q287	Where is the location of the Orange Bowl ?
+Q288	When was the last major eruption of Mount St. Helens ?
+Q289	What is the abbreviation for Original Equipment Manufacturer ?
+Q290	Where is Rider College located ?
+Q291	What does Nicholas Cage do for a living ?
+Q292	What does caliente mean -LRB- in English -RRB- ?
+Q293	Where is McCarren Airport ?
+Q294	Who created `` The Muppets `` ?
+Q295	What is the Islamic counterpart to the Red Cross ?
+Q296	What is Colin Powell best known for ?
+Q297	What is the busiest air travel season ?
+Q298	Where is Webster University ?
+Q299	When was John D. Rockefeller born ?
+Q300	Name a Gaelic language .
+Q301	What is measured in curies ?
+Q302	Where are the headquarters of Eli Lilly ?
+Q303	Where did Hillary Clinton graduate college ?
+Q304	Who coined the term `` cyberspace `` in his $ novel `` Neuromancer `` ?
+Q305	Who is the president of Bolivia ?
+Q306	When did the American Civil War end ?
+Q307	Who created the character of Scrooge ?
+Q308	Who first broke the sound barrier ?
+Q309	What is the salary of a U.S. Representative ?
+Q310	Name one of the Seven Wonders of the Ancient World .
+Q311	What is the airport code for Los Angeles International ?
+Q312	Who provides telephone service in Orange County , California ?
+Q313	What is the zip code for Fremont , CA ?
+Q314	Who shot Billy the Kid ?
+Q315	Who is the monarch of the United Kingdom ?
+Q316	How many states have a `` lemon law `` for new automobiles ?
+Q317	What continent is Bolivia on ?
+Q318	What is the name of the vaccine for chicken pox ?
+Q319	What is Betsy Ross famous for ?
+Q320	Who wrote the book , `` The Grinch Who Stole Christmas `` ?
+Q321	When did Aldous Huxley write , `` Brave New World `` ?
+Q322	Who wrote the book , `` Song of Solomon `` ?
+Q323	Who portrayed Jake in the television show , `` Jake and the Fatman `` ?
+Q324	Who portrayed Fatman in the television show , `` Jake and the Fatman `` ?
+Q325	What is one of the cities that the University of Minnesota is located in ?
+Q326	What kind of sports team is the Buffalo Sabres ?
+Q327	What city is Massachusetts General Hospital located in ?
+Q328	Who reports the weather on the `` Good Morning America `` television show ?
+Q329	Where is Los Vegas ?
+Q330	When was Beethoven born ?
+Q331	What 's the name of the tiger that advertises for Frosted Flakes cereal ?
+Q332	Where is Tufts University ?
+Q333	What cereal goes `` snap , crackle , pop `` ?
+Q334	For what disease is the drug Sinemet used as a treatment ?
+Q335	Who is Henry Butler ?
+Q336	What province is Edmonton located in ?
+Q337	In what area of the world was the Six Day War fought ?
+Q338	Where are diamonds mined ?
+Q339	Who is Terrence Malick ?
+Q340	What other name were the `` Little Rascals `` known as ?
+Q341	What was the name of the `` Little Rascals `` dog ?
+Q342	Who won the rugby world cup in 1987 ?
+Q343	Where is Windsor Castle ?
+Q344	What is the population of the United States ?
+Q345	What animal do buffalo wings come from ?
+Q346	What is witch hazel ?
+Q347	What 's the abbreviation for limited partnership ?
+Q348	What was the purpose of the Manhattan project ?
+Q349	What is the most common kind of skin cancer in the U.S. ?
+Q350	Name a civil war battlefield .
+Q351	When was the Hoover Dam constructed ?
+Q352	What caused the Lynmouth floods ?
+Q353	How many zip codes are there in the U.S. ?
+Q354	What was the name of the Titanic 's captain ?
+Q355	How many copies of an album must be sold for it to be a gold album ?
+Q356	When is the Tulip Festival in Michigan ?
+Q357	What is Giorgio Vasari famous for ?
+Q358	Who created the character James Bond ?
+Q359	What Cruise Line does Kathie Lee Gifford advertise for ?
+Q360	Where is the Thomas Edison Museum ?
+Q361	What hockey team did Wayne Gretzky play for ?
+Q362	How many home runs did Lou Gehrig have during his $ career ?
+Q363	How many states have a lottery ?
+Q364	What kind of a sports team is the Wisconsin Badgers ?
+Q365	What is the real name of the singer , Madonna ?
+Q366	What flower did Vincent Van Gogh paint ?
+Q367	What famous model was married to Billy Joel ?
+Q368	When did World War I start ?
+Q369	When was the movie , Caligula , made ?
+Q370	Name an American war plane ?
+Q371	Name a novel written by John Steinbeck .
+Q372	What is typhoid fever ?
+Q373	Who manufactures the software , `` PhotoShop `` ?
+Q374	Who was the first woman in space ?
+Q375	What are Cushman and Wakefield known for ?
+Q376	When was `` the Great Depression `` ?
+Q377	What is the medical condition of hypertension ?
+Q378	Who created the comic strip , `` Garfield `` ?
+Q379	Where is the Isle of Man ?
+Q380	Who wrote the book , `` Huckleberry Finn `` ?
+Q381	What day is known as the `` national day of prayer `` ?
+Q382	What is the purpose of a car bra ?
+Q383	What is the name of the art of growing miniature trees ?
+Q384	Who wrote `` The Scarlet Letter `` ?
+Q385	Name an art gallery in New York .
+Q386	What party was Winston Churchill a member of ?
+Q387	When did the Chernobyl nuclear accident occur ?
+Q388	What 's the name of the star of the cooking show , `` Galloping Gourmet `` ?
+Q389	What President became Chief Justice after his $ presidency ?
+Q390	Who won the nobel prize in literature in 1988 ?
+Q391	What 's the name of the Tampa newspaper ?
+Q392	What is Dr. Ruth 's last name ?
+Q393	Italy is the largest producer of what ?
+Q394	What wrestling star became `` The Incredible Hulk `` ?
+Q395	Who wrote `` The Pit and the Pendulum `` ?
+Q396	When was the first Wall Street Journal published ?
+Q397	What is the normal resting heart rate of a healthy adult ?
+Q398	Who 's the lead singer of the Led Zeppelin band ?
+Q399	Who wrote `` An Ideal Husband `` ?
+Q400	Who was Charles Lindbergh 's wife ?
+Q401	How many miles is it from London , England to Plymouth , England ?
+Q402	Who is Secretary General of the United Nations ?
+Q403	Who played the teacher in Dead Poet 's Society ?
+Q404	How many counties are in Indiana ?
+Q405	What actress starred in `` The Lion in Winter `` ?
+Q406	What 's the name of a hotel in Indianapolis ?
+Q407	Where is Kings Canyon ?
+Q408	Where is the Mayo Clinic ?
+Q409	How big is the Electoral College ?
+Q410	How much does one ton of cement cost ?
+Q411	Where does Mother Angelica live ?
+Q412	What is the name of a Greek god ?
+Q413	What 's the population of Mississippi ?
+Q414	What was the name of Jacques Cousteau 's ship ?
+Q415	What does Final Four refer to in the sports world ?
+Q416	What does Knight Ridder publish ?
+Q417	What task does the Bouvier breed of dog perform ?
+Q418	Name a ballet company Mikhail Baryshnikov has danced for ?
+Q419	Who was the founding member of the Pink Floyd band ?
+Q420	What 's the name of the Tokyo Stock Exchange ?
+Q421	What actor first portrayed James Bond ?
+Q422	What do river otters eat ?
+Q423	Where is the Smithsonian Institute located ?
+Q424	What year did the Vietnam War end ?
+Q425	What country are Godiva chocolates from ?
+Q426	How many islands does Fiji have ?
+Q427	What year was Desmond Mpilo Tutu awarded the Nobel Peace Prize ?
+Q428	Who was the oldest U.S. president ?
+Q429	Where is Santa Lucia ?
+Q430	Where is Ocho Rios ?
+Q431	Winnie the Pooh is what kind of animal ?
+Q432	What species was Winnie the Pooh ?
+Q433	What was the species of Winnie the Pooh ?
+Q434	Aspartame is also known as what ?
+Q435	Aspartame is known by what other name ?
+Q436	Jude Law was in what movie ?
+Q437	What film was Jude Law in ?
+Q438	Procter & Gamble is headquartered in which U.S. city ?
+Q439	Where is Procter & Gamble based in the U.S. ?
+Q440	CNN began broadcasting in what year ?
+Q441	When did CNN go on the air ?
+Q442	Who is the owner of CNN ?
+Q443	CNN is owned by whom ?
+Q444	What newspaper serves Salt Lake City ?
+Q445	Name a Salt Lake City newspaper .
+Q446	What is Jane Goodall famous for ?
+Q447	What is Jane Goodall known for ?
+Q448	Why is Jane Goodall famous ?
+Q449	What made Jane Goodall famous ?
+Q450	What is the collective noun for geese ?
+Q451	What is the gestation period for human pregnancies ?
+Q452	How long is human gestation ?
+Q453	What is the gestation period for humans ?
+Q454	A normal human pregnancy lasts how many months ?
+Q455	What video format was an alternative to VHS ?
+Q456	What format was the major competition of VHS ?
+Q457	Where is Logan Airport ?
+Q458	What city is Logan Airport in ?
+Q459	Logan International serves what city ?
+Q460	Logan International is located in what city ?
+Q461	What city 's airport is named Logan International ?
+Q462	What city is served by Logan International Airport ?
+Q463	Woodrow Wilson was president of which university ?
+Q464	Name the university of which Woodrow Wilson was president .
+Q465	Woodrow Wilson served as president of what university ?
+Q466	What killed Bob Marley ?
+Q467	What monarch signed the Magna Carta ?
+Q468	Which king signed the Magna Carta ?
+Q469	Who was the king who was forced to agree to the Magna Carta ?
+Q470	What king signed the Magna Carta ?
+Q471	Who was the king who signed the Magna Carta ?
+Q472	Where is one 's corpus callosum found ?
+Q473	What English word has the most letters ?
+Q474	What is the longest English word ?
+Q475	Silly putty was invented by whom ?
+Q476	Who was the inventor of silly putty ?
+Q477	What is the location of McCarren Airport ?
+Q478	Where is McCarren Airport located ?
+Q479	What was the name of `` The Muppets `` creator ?
+Q480	`` The Muppets `` was created by whom ?
+Q481	Name the creator of `` The Muppets `` .
+Q482	Who is the creator of `` The Muppets `` ?
+Q483	What is the date of Bastille Day ?
+Q484	Bastille Day occurs on which date ?
+Q485	What is the equivalent of the Red Cross in the Middle East ?
+Q486	What is the name of the Islamic counterpart to the Red Cross ?
+Q487	Name the Islamic counterpart to the Red Cross .
+Q488	What is the Islamic equivalent of the Red Cross ?
+Q489	What is the name given to the Islamic counterpart of the Red Cross ?
+Q490	Colin Powell is most famous for what ?
+Q491	Colin Powell is best known for what achievement ?
+Q492	Colin Powell is famous for what ?
+Q493	What time of year do most people fly ?
+Q494	What time of year has the most air travel ?
+Q495	At what time of year is air travel at a peak ?
+Q496	Name a golf course in Myrtle Beach .
+Q497	The major league baseball team in Pittsburgh is called what ?
+Q498	Name Pittsburgh 's baseball team .
+Q499	What city is the Orange Bowl in ?
+Q500	The Orange Bowl is in what city ?
+Q501	The Orange Bowl is located in what city ?
+Q502	Where is the Orange Bowl ?
+Q503	When did Mount St. Helens last erupt ?
+Q504	When did Mount St. Helen last have a major eruption ?
+Q505	When did Mount St. Helen last have a significant eruption ?
+Q506	How do you abbreviate `` Original Equipment Manufacturer `` ?
+Q507	How is `` Original Equipment Manufacturer `` abbreviated ?
+Q508	Where can one find Rider College ?
+Q509	What is the location of Rider College ?
+Q510	Where is Rider College ?
+Q511	What is the occupation of Nicholas Cage ?
+Q512	What is Nicholas Cage 's profession ?
+Q513	What is Nicholas Cage 's occupation ?
+Q514	What is the meaning of caliente -LRB- in English -RRB- ?
+Q515	What is the Jewish alphabet called ?
+Q516	The Jewish alphabet is called what ?
+Q517	The Jewish alphabet is known as what ?
+Q518	Jackson Pollock is of what nationality ?
+Q519	Where is the Kentucky Horse Park located ?
+Q520	Where is the Kentucky Horse Park ?
+Q521	What city is the Kentucky Horse Park near ?
+Q522	What is the nickname for the state of Mississippi ?
+Q523	What is the nickname of the state of Mississippi ?
+Q524	Who made the rotary engine automobile ?
+Q525	Rotary engine cars were made by what company ?
+Q526	Rotary engines used to be made by whom ?
+Q527	What company produced rotary engine vehicles ?
+Q528	What is the world 's highest peak ?
+Q529	What is the highest mountain in the world ?
+Q530	Name the highest mountain .
+Q531	What is the name of the tallest mountain in the world ?
+Q532	What makes Black Hills , South Dakota a tourist attraction ?
+Q533	What are the Black Hills known for ?
+Q534	How far is it from Denver to Aspen
+Q535	What county is Modesto California in
+Q536	When did Hawaii become a state
+Q537	How tall is the Sears Building
+Q538	George Bush purchased a small interest in which baseball team
+Q539	Why does the moon turn orange
+Q540	What city had a world fair in 1900
+Q541	When did Idaho become a state
+Q542	What metal has the highest melting point
+Q543	Who developed the vaccination against polio
+Q544	Who was the first American to walk in space
+Q545	What river in the US is known as the Big Muddy
+Q546	What is bipolar disorder
+Q547	Who developed the Macintosh computer
+Q548	Where is John Wayne airport
+Q549	What hemisphere is the Philippines in
+Q550	Where are the Rocky Mountains
+Q551	What is the temperature at the center of the earth
+Q552	When did John F. Kennedy get elected as President
+Q553	How old was Elvis Presley when he died
+Q554	Where is the Orinoco River
+Q555	How many Great Lakes are there
+Q556	How long did Rip Van Winkle sleep
+Q557	How many liters in a gallon
+Q558	What is the name of the chocolate company in San Francisco
+Q559	Who discovered x-rays
+Q560	What is done with worn or outdated flags
+Q561	When did Elvis Presley die
+Q562	What is the capital of Yugoslavia
+Q563	What are the speed hummingbirds fly
+Q564	What is the oldest city in the United States
+Q565	What river flows between Fargo North Dakota and Moorhead Minnesota
+Q566	What do bats eat
+Q567	Who was Abraham Lincoln
+Q568	What are spider veins
+Q569	What strait separates North America from Asia
+Q570	What is the largest city in the world
+Q571	What American composer wrote the music for West Side Story
+Q572	Where is the Mall of the America
+Q573	What is the pH scale
+Q574	What type of currency is used in Australia
+Q575	When was the first liver transplant
+Q576	Who was elected president of South Africa in 1994
+Q577	What is the population of China
+Q578	The US Department of Treasury first issued paper currency during which war ?
+Q579	What is desktop publishing
+Q580	What is the temperature of the sun surface
+Q581	What is the oldest university in the US
+Q582	Where is Prince Edward Island
+Q583	What are coral reefs
+Q584	How do you measure earthquakes
+Q585	Who is Duke Ellington
+Q586	What county is Phoenix AZ in
+Q587	The sun core what is the temperature
+Q588	What is Hawaii state flower
+Q589	When did the Hindenberg crash
+Q590	What was the last year that the Chicago Cubs won the World Series
+Q591	Who discovered America
+Q592	What is the earth diameter
+Q593	How wide is the Milky Way galaxy
+Q594	How far is a nautical mile
+Q595	Who was the abolitionist who led the raid on Harper Ferry in 1859
+Q596	What does target heart rate mean
+Q597	What was the first satellite to go into space
+Q598	What is the major fault line near Kentucky
+Q599	Where is the Holland Tunnel
+Q600	Who wrote the hymn Amazing Grace
+Q601	Where are the National Archives
+Q602	Who is a German philosopher
+Q603	What were Christopher Columbus ' three ships
+Q604	What does Phi Beta Kappa mean
+Q605	What is another name for vitamin B1
+Q606	Who discovered radium
+Q607	What continent is Egypt on
+Q608	What is the capital of Mongolia
+Q609	When is hurricane season in the Caribbean
+Q610	Where is the volcano Mauna Loa
+Q611	What peninsula is Spain part of
+Q612	When was Lyndon B. Johnson born
+Q613	Who founded American Red Cross
+Q614	What year did the Milwaukee Braves become the Atlanta Braves
+Q615	When is the summer solstice
+Q616	Where is the Shawnee National Forest
+Q617	What US state motto is Live free or Die
+Q618	When was the first stamp issued
+Q619	How far is Pluto from the sun
+Q620	What body of water are the Canary Islands in
+Q621	Where is the Euphrates River
+Q622	What is natural gas composed of
+Q623	What French ruler was defeated at the battle of Waterloo
+Q624	What is the distance in miles from the earth to the sun
+Q625	When was the first Wal-Mart store opened
+Q626	What is relative humidity
+Q627	What currency is used in Algeria
+Q628	What is the name of the satellite that the Soviet Union
+Q629	What are the animals that do n't have backbones called
+Q630	Who was the 23rd president of the United States
+Q631	What is the average body temperature
+Q632	What is the effect of acid rain
+Q633	How fast is the speed of light
+Q634	What province is Montreal in
+Q635	What New York City structure is also known as the Twin Towers
+Q636	What is the most frequently spoken language in the Netherlands
+Q637	What is sodium chloride
+Q638	How many pounds in a ton
+Q639	What is ozone depletion
+Q640	What does Sitting Shiva mean
+Q641	What is plastic made of
+Q642	What is the population of Nigeria
+Q643	Where is the Grand Canyon
+Q644	Who invented the telephone
+Q645	What is the name of the leader of Ireland
+Q646	How many gallons of water are there in a cubic foot
+Q647	In Poland where do most people live
+Q648	What is the location of the Sea of Tranquility
+Q649	How fast is sound
+Q650	What causes gray hair
+Q651	What is the longest suspension bridge in the U.S .
+Q652	What is the criterion for being legally blind
+Q653	Who is the tallest man in the world
+Q654	What are the twin cities
+Q655	What planet is known as the red planet
+Q656	What is the colorful Korean traditional dress called
+Q657	What is Mardi Gras
+Q658	Who was the first African American to play for the Brooklyn Dodgers
+Q659	Who was the first Prime Minister of Canada
+Q660	How many Admirals are there in the US Navy
+Q661	What is the capital of Ethiopia
+Q662	For how long is an elephant pregnant
+Q663	What is the primary language in Iceland
+Q664	Who was the first woman governor in the U.S .
+Q665	What year did Oklahoma become a state
+Q666	What is a mirror made out of
+Q667	What is pulmonary fibrosis
+Q668	What is strep throat
+Q669	What is the largest city in the U.S .
+Q670	What is foot and mouth disease
+Q671	What is the life expectancy of a dollar bill
+Q672	What color is indigo
+Q673	What year did the NFL go on strike
+Q674	What is solar wind
+Q675	What date did Neil Armstrong land on the moon
+Q676	When was Hiroshima bombed
+Q677	Who is the governor of Alaska
+Q678	What year did Mussolini seize power in Italy
+Q679	What is the capital of Persia
+Q680	Where is the Eiffel Tower
+Q681	What is the deepest lake in the US
+Q682	What is a fuel cell
+Q683	Who was the first US president to appear on TV
+Q684	Where is the Little League Museum
+Q685	What is the brightest star
+Q686	When was President Kennedy shot
+Q687	What date was Dwight D. Eisenhower born
+Q688	Why is the sun yellow
+Q689	When was Abraham Lincoln born
+Q690	What is the Milky Way
+Q691	What year was Mozart born
+Q692	What is the melting point of gold
+Q693	What is the street address of the White House
+Q694	What fruit is Melba sauce made from
+Q695	What is Ursa Major
+Q696	What is the percentage of water content in the human body
+Q697	What was President Lyndon Johnson reform program called
+Q698	What is the population of Australia
+Q699	Who painted the ceiling of the Sistine Chapel
+Q700	Name a stimulant .
+Q701	What is the effect of volcanoes on the climate
+Q702	What year did the Andy Griffith show begin
+Q703	What is acid rain
+Q704	What is the date of Mexico independence
+Q705	What is the location of Lake Champlain
+Q706	What is the Illinois state flower
+Q707	What is the speed of light
+Q708	Why in tennis are zero points called love
+Q709	What kind of dog was Toto in the Wizard of Oz
+Q710	What is the only artery that carries blue blood from the heart to the lungs
+Q711	What is acetic acid
+Q712	What are the colors of the German flag
+Q713	What is the Moulin Rouge
+Q714	What soviet seaport is on the Black Sea
+Q715	What is the atomic weight of silver
+Q716	What currency do they use in Brazil
+Q717	What is mad cow disease
+Q718	Where do apple snails live
+Q719	Who killed John F. Kennedy
+Q720	Who was the first vice president of the U.S .
+Q721	When was Ulysses S. Grant born
+Q722	What is Muscular Dystrophy
+Q723	Who lived in the Neuschwanstein castle
+Q724	What is propylene glycol
+Q725	What is a panic disorder
+Q726	Who invented the instant Polaroid camera
+Q727	What is the world population
+Q728	What is the sales tax rate in New York
+Q729	What is the fourth highest mountain in the world
+Q730	What is the heaviest naturally occurring element
+Q731	What is carbon dioxide
+Q732	When was the Boston tea party
+Q733	What are cigarettes made of
+Q734	What is the capital of Zimbabwe
+Q735	What is the state flower of Michigan
+Q736	What is nuclear power
+Q737	Who is the congressman from state of Texas on the armed forces committee
+Q738	Who was president in 1913
+Q739	When was the first kidney transplant
+Q740	What are Canada two territories
+Q741	What was the name of the plane Lindbergh flew solo across the Atlantic
+Q742	Where is the tallest roller coaster located
+Q743	Who discovered oxygen
+Q744	What is bangers and mash
+Q745	What is the name given to the Tiger at Louisiana State University
+Q746	Where are the British crown jewels kept
+Q747	Who was the first person to reach the North Pole
+Q748	Who invented Trivial Pursuit
+Q749	Who was the first African American to win the Nobel Prize in literature
+Q750	When is St. Patrick Day
+Q751	What was FDR dog name
+Q752	What is the most popular sport in Japan
+Q753	What is the active ingredient in baking soda
+Q754	When was Thomas Jefferson born
+Q755	When was the telephone invented
+Q756	What is New York state bird
+Q757	What is the National Park in Utah
+Q758	What is Susan B. Anthony birthday
+Q759	In which state would you find the Catskill Mountains
+Q760	What chain store is headquartered in Bentonville Arkansas
+Q761	What are solar cells
+Q762	What currency does Luxembourg use
+Q763	What is the population of Venezuela
+Q764	What currency does Argentina use
+Q765	What Canadian city has the largest population
+Q766	Which country gave New York the Statue of Liberty
+Q767	What was the name of the first US satellite sent into space
+Q768	What precious stone is a form of pure carbon
+Q769	What is rheumatoid arthritis
+Q770	What is cerebral palsy
+Q771	What city is also known as The Gateway to the West
+Q772	How far away is the moon
+Q773	What is the source of natural gas
+Q774	Who was the 22nd President of the US
+Q775	How many feet in a mile
+Q776	Who is Tom Cruise married to ?
+Q777	What was the largest crowd to ever come see Michael Jordan ?
+Q778	When was the telegraph invented ?
+Q779	What is the democratic party symbol ?
+Q780	What year did Wilt Chamberlain score 100 points ?
+Q781	How many chromosomes does a human zygote have ?
+Q782	How many ounces are in a gallon ?
+Q783	Which political party is Lionel Jospin a member of ?
+Q784	What lays blue eggs ?
+Q785	What Spanish explorer discovered the Mississippi River ?
+Q786	Who is the governor of Colorado ?
+Q787	What was the length of the Wright brothers ' first flight ?
+Q788	When was Wendy 's founded ?
+Q789	Who was the first person to run the mile in less than four minutes ?
+Q790	When was the Rosenberg trial ?
+Q791	What year did Alaska become a state ?
+Q792	When did Mike Tyson bite Holyfield 's ear ?
+Q793	What is a peninsula in the Philippines ?
+Q794	Who is the governor of Tennessee ?
+Q795	Who won the Nobel Peace Prize in 1992 ?
+Q796	What was Andrew Jackson 's wife 's name ?
+Q797	Where is Devil 's Tower ?
+Q798	What is the height of the tallest redwood ?
+Q799	How deep is Crater Lake ?
+Q800	What is the coldest place on earth ?
+Q801	What female leader succeeded Ferdinand Marcos as president of the Philippines ?
+Q802	What is the capital of Syria ?
+Q803	What college did Magic Johnson attend ?
+Q804	Where was the first J.C. Penney store opened ?
+Q805	How much money does the U.S. supreme court make ?
+Q806	What is the Keystone State ?
+Q807	Who succeeded Ferdinand Marcos ?
+Q808	What is one national park in Indiana ?
+Q809	What is the North Korean national anthem ?
+Q810	Who is the detective on `` Diagnosis Murder '' ?
+Q811	What company makes Bentley cars ?
+Q812	How tall is Allen Iverson ?
+Q813	What year did South Dakota become a state ?
+Q814	When did president Herbert Hoover die ?
+Q815	How fast does a cheetah run ?
+Q816	How do you say `` house '' in Spanish ?
+Q817	When was Lyndon B. Johnson born ?
+Q818	What is the lowest point on earth ?
+Q819	Who was the first person to reach the south pole ?
+Q820	What is the principle port in Ecuador ?
+Q821	What is the capital city of Algeria ?
+Q822	What county is Wilmington , Delaware in ?
+Q823	Where is the highest point on earth ?
+Q824	How much are tickets to Disney World ?
+Q825	What continent is India on ?
+Q826	What is the Boston Strangler 's name ?
+Q827	What was the name of Sherlock Holmes ' brother ?
+Q828	When was Davy Crockett born ?
+Q829	Who wrote `` East is east , west is west and never the twain shall meet '' ?
+Q830	What country is Berlin in ?
+Q831	What school did Emmitt Smith go to ?
+Q832	Which African country 's major export is coffee ?
+Q833	Where is Georgetown University ?
+Q834	How much of U.S. power is from nuclear energy ?
+Q835	What year was President Kennedy killed ?
+Q836	What is the world 's second largest island ?
+Q837	Where is the Salton Sea ?
+Q838	What is the currency used in China ?
+Q839	What 's the name of King Arthur 's sword ?
+Q840	What is the national anthem in England ?
+Q841	What is Frank Sinatra 's nickname ?
+Q842	Where is Anne Frank 's diary ?
+Q843	What is the age of our solar system ?
+Q844	What was Dr. Seuss ' real name ?
+Q845	What is the state bird of Alaska ?
+Q846	Where was Hans Christian Anderson born ?
+Q847	What is the capital of Kentucky ?
+Q848	What percent of the U.S. is African American ?
+Q849	What is the name of the ballpark that the Milwaukee Brewers play at ?
+Q850	What university did Thomas Jefferson found ?
+Q851	What is the city of brotherly love ?
+Q852	What is the oldest college bowl game ?
+Q853	What is the capital city of New Zealand ?
+Q854	What is the literacy rate in Cuba ?
+Q855	Who painted `` Sunflowers '' ?
+Q856	What city is Lake Washington by ?
+Q857	How many electoral college votes in Tennessee ?
+Q858	Who is the evil H.R. Director in `` Dilbert '' ?
+Q859	What is Ronald Reagan 's favorite candy ?
+Q860	What is the deepest lake in America ?
+Q861	Where is Hill Air Force Base ?
+Q862	What is the most populated country in the world ?
+Q863	What is the atomic number of uranium ?
+Q864	What is the southwestern-most tip of England ?
+Q865	Who makes Magic Chef refrigerators ?
+Q866	When was the Tet offensive in Vietnam ?
+Q867	What was the first satellite in space ?
+Q868	Where did Dr. King give his speech in Washington ?
+Q869	When was the first patent filed on the ice cream cone ?
+Q870	Who started the Protestant reformation ?
+Q871	What is Karl Malone 's nickname ?
+Q872	What famous Spanish poet died in Spain 's Civil War ?
+Q873	When did the Vietnam War end ?
+Q874	Who is the head of the FBI ?
+Q875	What is the degree of tilt of Earth ?
+Q876	How tall is the Sphinx ?
+Q877	When did George W. Bush get elected as the governor of Texas ?
+Q878	When did the Golden Gate Bridge get finished ?
+Q879	When was Apollo 11 launched ?
+Q880	Who was the only golfer to win the U.S. and British Opens and amateurs
+Q881	What percent of Egypt 's population lives in Cairo ?
+Q882	What year did Mussolini seize power in Italy ?
+Q883	What is South Africa 's total population ?
+Q884	When did Einstein die ?
+Q885	When did Robert E. Lee surrender in the Civil War ?
+Q886	What does R & B stand for ?
+Q887	How far would you run if you participate in a marathon ?
+Q888	What is the boiling point of water ?
+Q889	What is the normal blood sugar range for people ?
+Q890	When was the U.S. invasion of Haiti ?
+Q891	When was Benjamin Disraeli prime minister ?
+Q892	What is the capital of Victoria ?
+Q893	What is Africa 's largest country ?
+Q894	When did the Klondike gold rush occur ?
+Q895	Where is bile produced ?
+Q896	Which baseball star stole 130 bases in 1982 ?
+Q897	What year was the first Macy 's Thanksgiving Day Parade held ?
+Q898	Who was Woodrow Wilson 's First Lady ?
+Q899	What is the active ingredient in Tylenol ?
+Q900	What year did `` New Coke '' come out ?
+Q901	What is the deepest lake in the world ?
+Q902	What is written on the U.S. tomb of the unknown soldier ?
+Q903	How much area does the Everglades cover ?
+Q904	Where is Mae West buried ?
+Q905	What roller coaster is the fastest in the world ?
+Q906	When was the battle of Chancellorsville fought ?
+Q907	Who founded Taoism ?
+Q908	Who founded Rhode Island ?
+Q909	How much is the international space stations expected to cost ?
+Q910	When was the first atomic bomb dropped ?
+Q911	What year did the shuttle Challenger explode ?
+Q912	What county is Elmira , NY in ?
+Q913	What is another name for the North Star ?
+Q914	When did the United States enter World War II ?
+Q915	How do you say `` French fries '' in French ?
+Q916	Where is Prairie View A & M University ?
+Q917	Where was Abraham Lincoln born ?
+Q918	What do the French call the English Channel ?
+Q919	What year was Robert Frost born ?
+Q920	Where was Bob Dylan born ?
+Q921	What does `` E Pluribus Unum '' mean ?
+Q922	When did Marian Anderson sing at the Lincoln Memorial ?
+Q923	What is the name of the US military base in Cuba ?
+Q924	What is the abbreviation for the London stock exchange ?
+Q925	How tall is Mount McKinley ?
+Q926	Where is Big Ben ?
+Q927	What Latin American country is the leading exporter of sugar cane ?
+Q928	What day did Neil Armstrong land on the moon ?
+Q929	When was water found on Mars ?
+Q930	Who was the U.S. president in 1929 ?
+Q931	When was Martin Luther King Jr. born ?
+Q932	What name is horror actor William Henry Pratt better known by ?
+Q933	What is the most populous city in the United States ?
+Q934	Who defeated the Spanish armada ?
+Q935	What president declared Mothers ' Day ?
+Q936	What year was the gateway arch built ?
+Q937	What war is connected with the book `` Charge of the Light Brigade '' ?
+Q938	Where was the movie `` Somewhere in Time '' filmed ?
+Q939	When was Jackie Robinson born ?
+Q940	What breed was Roy Rogers ' horse Trigger ?
+Q941	Where is the Statue of Liberty ?
+Q942	When was Julius Caesar born ?
+Q943	What city is Purdue University in ?
+Q944	Where is America 's Stonehenge ?
+Q945	When was the Exxon Valdez Oil spill ?
+Q946	What are the colors of the Italian flag ?
+Q947	When was the first jet invented ?
+Q948	Who invented the fishing reel ?
+Q949	How much vitamin C should you take in a day ?
+Q950	Who was the first Triple Crown Winner ?
+Q951	What city was the first in the world to have a population over one million ?
+Q952	When was the White House built ?
+Q953	What is the distance from Jupiter to the sun ?
+Q954	How far is the pitchers mound from home plate in softball ?
+Q955	What year did poet Emily Dickinson die ?
+Q956	What is Madonna 's last name ?
+Q957	What is the name of the airport in Amsterdam ?
+Q958	What is Mark Twain 's real name ?
+Q959	What are the opening words of the Declaration of Independence ?
+Q960	Who is the president pro tempore of the US Senate ?
+Q961	How do you say `` pig '' in Spanish ?
+Q962	What city is Southwestern University in ?
+Q963	How much sleep should a child get at night ?
+Q964	What is the Stanley Cup made of ?
+Q965	What are hiccups caused by ?
+Q966	Who stabbed Monica Seles ?
+Q967	Where is the national hurricane center located ?
+Q968	When were the Los Angeles riots ?
+Q969	When was Sputnik launched ?
+Q970	What is Mexico 's population ?
+Q971	Where is Mesa Verde National park ?
+Q972	When was the Oklahoma City bombing ?
+Q973	When was the Vietnam Veterans Memorial in Washington , D.C. built ?
+Q974	When did the Persian Gulf War occur ?
+Q975	What was the profession of American patriot Paul Revere ?
+Q976	What is the `` Sunflower State '' ?
+Q977	Who wrote `` Fiddler on the Roof ? ''
+Q978	How old is the universe ?
+Q979	What is Australia 's national blossom ?
+Q980	When was the first Ford Mustang made ?
+Q981	Who is the owner of the St. Petersburg Times ?
+Q982	Who invented the cotton gin ?
+Q983	What is Australia 's oldest city ?
+Q984	Who has the most no hitters in major league baseball ?
+Q985	What year did `` Snow White '' come out ?
+Q986	Who was the first woman to run for president ?
+Q987	Who makes viagra ?
+Q988	What country is the holy city of Mecca located in ?
+Q989	What is the world 's tallest office building ?
+Q990	On what continent is Egypt located ?
+Q991	How tall is Tom Cruise ?
+Q992	When did Willis Haviland Carrier make the air conditioner ?
+Q993	Which river runs through Dublin ?
+Q994	Who was elected President of South Africa in 1994 ?
+Q995	When was the first heart transplant ?
+Q996	What is the range for the number of passengers a Boeing 747 airplane can carry ?
+Q997	What island did the U.S. gain after the Spanish American war ?
+Q998	When was the Buckingham Palace built in London , England ?
+Q999	Where are the British Crown jewels kept ?
+Q1000	When did Marilyn Monroe commit suicide ?
+Q1001	When is Mexico 's independence ?
+Q1002	Who were the architects who designed the Empire State Building ?
+Q1003	What number did Michael Jordan wear ?
+Q1004	Where was the battle of Alamo fought ?
+Q1005	How tall is the CNN Tower in Toronto ?
+Q1006	What city does the Tour de France end in ?
+Q1007	What is the name of Abbott and Costello 's famous routine ?
+Q1008	What year was Ebbets Field , home of Brooklyn Dodgers , built ?
+Q1009	What was the name of FDR 's dog ?
+Q1010	What country was formed in 1948 ?
+Q1011	What is the state song of Kansas ?
+Q1012	In what month are the most babies born ?
+Q1013	What province is Calgary located in ?
+Q1014	What is the oldest sports trophy ?
+Q1015	What was the name of the plane that dropped the Atomic Bomb on Hiroshima ?
+Q1016	Where was the Andersonville Prison ?
+Q1017	What city is known as the rubber capital of the world ?
+Q1018	What branch of the military has its academy in Annapolis ?
+Q1019	Where was Bill Gates born ?
+Q1020	What is the GDP of China ?
+Q1021	Who said `` I have not begun to fight ! '' ?
+Q1022	What was the name of the first child of English parents
+Q1023	Which Italian city is home to the Cathedral of Santa Maria del Fiore
+Q1024	What country is Pretoria in ?
+Q1025	How much gravity exists on Mars ?
+Q1026	What is the motto for California ?
+Q1027	When was the battle of Shiloh ?
+Q1028	How far from the earth is the sun ?
+Q1029	What year was the phonograph invented ?
+Q1030	When was King Louis XIV born ?
+Q1031	What nationality is Sean Connery ?
+Q1032	How much of the ozone layer is depleted ?
+Q1033	Where is the Sea of Tranquility ?
+Q1034	What language do they speak in New Caledonia ?
+Q1035	What are Brazil 's national colors ?
+Q1036	What year was the light bulb invented ?
+Q1037	Who is the author of the poem `` The Midnight Ride of Paul Revere ? ''
+Q1038	Who was the first black heavyweight champion ?
+Q1039	How far is it from Earth to Mars ?
+Q1040	What is the name of the airport in Dallas Ft. Worth ?
+Q1041	What city is Disneyland in ?
+Q1042	What book did Rachel Carson write in 1962 ?
+Q1043	What country is Aswan High Dam located in ?
+Q1044	How many time zones are there in the world ?
+Q1045	What is the population of Iceland ?
+Q1046	What are pennies made of ?
+Q1047	In which city is the River Seine ?
+Q1048	What city is the home to the Rock and Roll Hall of Fame ?
+Q1049	What city did Duke Ellington live in ?
+Q1050	When was `` Cold Mountain '' written ?
+Q1051	What band did the music for the 1970 's film `` Saturday Night Fever '' ?
+Q1052	What band was Jerry Garcia with ?
+Q1053	When was Prince Charles born ?
+Q1054	What is the play `` West Side Story '' based on ?
+Q1055	What color is the top stripe on the U.S. flag ?
+Q1056	How many stories are in the Sears Tower ?
+Q1057	What is the name of Ling Ling 's mate ?
+Q1058	What did George Washington call his house ?
+Q1059	When was Adolf Hitler born ?
+Q1060	What country did Catherine the Great rule ?
+Q1061	What is the nickname of the British flag ?
+Q1062	How many NFL teams are there ?
+Q1063	How fast can a king cobra kill you ?
+Q1064	How many gas stations are there in the United States ?
+Q1065	What country is know as the `` Land of the Rising Sun '' ?
+Q1066	What capital city do you see from the top of Bunker Hill ?
+Q1067	What party led Australia from 1983 to 1996 ?
+Q1068	What is the national airline of Spain ?
+Q1069	What city is the Liberty Bell currently located in ?
+Q1070	What is Richie 's surname on `` Happy Days '' ?
+Q1071	What is the motto for the Boy Scouts ?
+Q1072	How far is the moon from Earth in miles ?
+Q1073	How long is the Great Barrier Reef ?
+Q1074	What movie won the Academy Award for best picture in 1989 ?
+Q1075	When was Lyndon B. Johnson president ?
+Q1076	What are people born 1965 through 1980 called ?
+Q1077	What is the Cav 's arena name ?
+Q1078	How hot is the sun ?
+Q1079	How many official languages does Switzerland have ?
+Q1080	What was the Beatles ' first number one hit ?
+Q1081	What city is Duke University in ?
+Q1082	How old was Babe Ruth when he died ?
+Q1083	What is the state with the smallest population ?
+Q1084	How many Earth days does it take for Mars to orbit the sun ?
+Q1085	What do the opposite sides of a die add up to ?
+Q1086	What is the fastest roller coaster ?
+Q1087	How many years are there in a French president 's term ?
+Q1088	What island was Napoleon exiled to after his defeat at Waterloo ?
+Q1089	When was Leonardo da Vinci born ?
+Q1090	How many stripes are on the American flag ?
+Q1091	What building is the Academy of Country Music Awards held in ?
+Q1092	What is the area of western Germany that is known for its rich coal deposits ?
+Q1093	What percent of the nation 's cheese does Wisconsin produce ?
+Q1094	How many days are there in a Martian year ?
+Q1095	In which city would you find the Louvre ?
+Q1096	What is the world 's largest coral reef ?
+Q1097	What English city does the prime meridian pass through ?
+Q1098	What sports stadium has been billed as `` the eighth wonder of the world '' ?
+Q1099	When was OJ Simpson arrested for murder ?
+Q1100	How many electoral votes does Tennessee have ?

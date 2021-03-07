@@ -5,4 +5,5 @@ CS learning materials of SUDA by Holger
 - 信息检索综合实践 *[Information-Retrieval](Information-Retrieval/)*
 - C++程序设计/程序设计综合实践 *[C-Plus-Plus](C-Plus-Plus/)*
 - 数据结构/数据结构课程实践 *[Data-Structure](Data-Structure/)*
+- 模拟与数字电路设计 *[Analog-Digital-Circuit-Design](Analog-Digital-Circuit-Design/)*
 - 待续...
