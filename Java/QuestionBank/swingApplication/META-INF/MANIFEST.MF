@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: Main
+Class-Path: sqlite-jdbc-3.7.2.jar
+
