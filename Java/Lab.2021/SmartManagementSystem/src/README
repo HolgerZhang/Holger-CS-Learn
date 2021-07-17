@@ -1,0 +1,13 @@
+项目结构与配置
+作者：19计科图灵 张昊 1927405160
+（1）本项目的目录结构如下：
+    .idea目录：JetBrains Intellij IDEA集成开发环境工作目录
+    data目录：存放程序运行所需数据的目录
+        data/img目录：程序运行所需图片
+        data/data.db文件：程序内嵌数据库文件，已包含文档中的测试用例的数据
+    doc目录：项目文档（设计报告）所在目录
+    lib目录：SQLite JDBC驱动目录，需要添加到JRE的classpath中
+    out/production目录：程序编译生成的class文件所在目录
+    src目录：源代码所在目录
+（2）测试环境：Windows 10 x64，Java SE 11，JetBrains Intellij IDEA集成开发环境
+（3）主类：manager.ui.WelcomeActivity
