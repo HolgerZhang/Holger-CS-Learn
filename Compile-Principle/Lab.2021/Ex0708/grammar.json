@@ -1,0 +1,14 @@
+{
+  "grammar_file": "grammar.txt",
+  "non_terminals": [
+    "S",
+    "NP",
+    "VP",
+    "N",
+    "V",
+    "PP",
+    "P",
+    "@VP_V"
+  ],
+  "start_symbol": "S"
+}

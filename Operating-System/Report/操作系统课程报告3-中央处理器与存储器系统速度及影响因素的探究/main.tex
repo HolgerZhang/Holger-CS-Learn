@@ -1,0 +1,480 @@
+% XeLaTex
+%\documentclass[review]{cvpr}
+\documentclass[final]{cvpr}
+
+\usepackage[UTF8]{ctex}
+
+% \usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{overpic}
+
+\usepackage{enumitem}
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+
+\usepackage[pagebackref=true,breaklinks=true,colorlinks,bookmarks=false]{hyperref}
+\usepackage{listings} % 插入代码用到
+% 用来设置附录中代码的样式
+\lstset{
+    breaklines=true,
+	basicstyle          =   \footnotesize\sffamily,          % 基本代码风格
+	flexiblecolumns,                % 别问为什么，加上这个
+	showspaces          =   false,  % 是否显示空格，显示了有点乱，所以不现实了
+	captionpos          =   t,      % 这段代码的名字所呈现的位置，t指的是top上面
+	frame               =   lrtb,   % 显示边框
+    showstringspaces=true,% 不显示字符串中的空格
+}
+
+\usepackage{hyperref}
+\makeatletter
+\def\UrlAlphabet{%
+      \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+      \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+      \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+      \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+      \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+      \do\Y\do\Z}
+\def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\g@addto@macro{\UrlBreaks}{\UrlAlphabet}
+\g@addto@macro{\UrlBreaks}{\UrlDigits}
+\makeatother
+
+\newcommand{\cmm}[1]{\textcolor[rgb]{0,0.6,0}{CMM: #1}}
+\newcommand{\todo}[1]{{\textcolor{red}{\bf [#1]}}}
+\newcommand{\alert}[1]{\textcolor[rgb]{.6,0,0}{#1}}
+\newcommand{\mypara}[1]{\paragraph{#1.}}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+% \begin{CJK*}{GBK}{song}
+
+\renewcommand{\figref}[1]{图\ref{#1}}
+\renewcommand{\tabref}[1]{表\ref{#1}}
+\renewcommand{\equref}[1]{式\ref{#1}}
+\renewcommand{\secref}[1]{第\ref{#1}节}
+\def\abstract{\centerline{\large\bf 摘要} \vspace*{12pt} \it}
+
+%%%%%%%%% TITLE
+
+\title{操作系统课程报告3：中央处理器与存储器系统速度及影响因素的探究}
+
+\author{张昊  \quad 1927405160 \\ 苏州大学计算机科学与技术学院19级图灵班}
+
+\maketitle
+% \thispagestyle{empty}
+
+% %%%%%%%%% ABSTRACT
+% \begin{abstract}
+% TODO
+% \end{abstract}
+
+%%%%%%%%% BODY TEXT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{引言}\label{sec:Introduction}
+
+操作系统是方便用户管理和控制计算机软硬件资源的程序集合，在用户和计算机硬件间充当中介的角色。操作系统在计算机系统之上完成了进程管理、内存管理、文件管理和I/O设备管理这四大任务，其中与计算机硬件设备中的CPU和存储器系统密切相关。因此，了解中央处理器与存储器系统速度及影响因素，以及对于不平衡的速度差距是如何解决的是必要的。
+
+本文主要讨论了以下三个内容：
+
+\begin{itemize}
+\item 中央处理器的性能及其影响因素；
+\item 存储器系统的速度及其影响因素；
+\item 计算机各部件速度差异的匹配。
+\end{itemize}
+
+简要地概括一下后续章节的内容，
+第\ref{sec:CPU}章从以12代酷睿i9处理器为例介绍了中央处理器性能的影响因素，
+第\ref{sec:RAM}章和第\ref{sec:DISK}章介绍了存储器系统中内存、硬盘等组成部件的速度差异以及影响因素，
+第\ref{sec:Difference}章从存储器的层次结构出发，介绍了现代计算机系统是如何解决速度不同的部件之间平衡速度差异的方法，并在第\ref{sec:Conclusion}章进行了总结。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{中央处理器的性能及其影响因素}\label{sec:CPU}
+
+中央处理器 (Central Processing Unit，CPU)是计算机的主要设备之一，
+功能主要是解释计算机指令以及处理计算机软件中的数据\cite{Web/wiki-cpu}，
+其性能和速度对计算机的整体运行速度有着较为显著的影响。
+
+本文主要讨论消费级CPU，这类CPU通常不是无限功耗(即可以随意超频)或者有无限的芯片面积，而关注在特定功率范围和特定芯片尺寸下，CPU的性能表现\cite{Web/zhihu1}。因此，暂且不考虑处理器的超频带来的性能上的提升。
+
+以2021年第四季度英特尔公司发布的12代酷睿i9处理器i9-12900K为例，
+其采用了Alder Lake-S架构。
+该架构基于Intel 7制程(10nm Enhanced SuperFin)工艺打造，
+并首次将性能混合架构\footnote{英特尔的混合架构并不是简单的“大小核”，与ARM移动平台功耗优先的设计理念不同，是以性能为优先的。}(Intel Hybrid Technology)引入x86桌面平台，首次集成了两种内核类型：性能核心(Performance Core)和能效核心(Efficiency Core)，以带来跨越所有工作负载类型的性能提升\footnote{此外英特尔还开发了硬件线程调度器(Intel Thread Director)，内嵌在CPU架构中，专门为合理地分配性能核心和能效核心的负载而设计，同操作系统紧密配合，以确保两种全新内核微架构无缝衔接。}。
+酷睿i9-12900K采用16核心，24线程设计，包括8颗性能核心和8颗能效核心。(由于能效核心不支持超线程，因此总计为24个线程。)性能核心的基准频率3.2GHz，最高睿频频率5.2GHZ；能效核心的基准频率为2.4GHz，最高睿频频率3.9GHz。\cite{Web/i9-12900K}
+
+接下来将对如上一些性能指标作简单介绍。
+
+\subsection{\textbf{CPU单核性能的影响因素}}
+
+从CPU的性能参数来讲，CPU的性能和速度取决于时钟频率(一般以GHz来衡量)和每周期指令数(IPC，每个时钟周期执行的平均指令数)，两者合并起来就是每秒可处理的指令(IPS)。下面具体解释一下有关的评价指标：
+
+\begin{itemize}
+\item 时钟频率 $f$，又称主频，
+      是指CPU内部晶振的频率，反映了CPU的基本工作节拍。
+\item 时钟周期 $T$，为主频的倒数。
+$$
+T=\frac{1}{f}
+$$
+\item 机器周期 : $m\times T$ ，一个机器周期包含若干个($m$个)时钟周期。
+\item 指令周期：$m\times T \times n$， 执行一条指令所需要的时间，一般包含若干个($n$个)机器周期。
+\item CPI (clock per instruction)，平均每条指令的平均时钟周期个数。
+\begin{equation*}
+\begin{aligned}
+CPI & =  \frac{\text{程序中所有指令的时钟周期数之和}}{\text{程序指令总数}}\\
+    & =  \text{各类指令}CPI \times \text{该类指令比例}
+\end{aligned}
+\end{equation*}
+\item IPC (instruction per clock)，每(时钟)周期运行多少个指令。
+\item MIPS，每秒执行百万条指令数。
+\begin{equation*}
+\begin{aligned}
+MIPS & =  \frac{1}{CPI\times T\times 10^6}\\
+     & =  \frac{1}{\text{指令周期}\times 10^6}\\
+     & =  \frac{f}{CPI\times 10^6}\\
+     & =  \frac{f\times IPC}{10^6}
+\end{aligned}
+\end{equation*}
+\item MFLOPS，每秒百万浮点运算次数，代表了CPU处理浮点运算的能力(与MIPS不能相互转换)。
+\end{itemize}
+
+\textit{指令周期通常用若干个机器周期来表示，在机器语言中，使用执行一条指令所需要的机器周期数来说明指令执行的速度。而机器周期又包含若干个时钟周期。时钟周期是最基本的操作单位。}
+
+从CPU设计的角度来看CPU性能衡量标准(单核性能)，
+主要由以下几个方面决定：
+
+\begin{itemize}
+\item 半导体工艺，也就是我们通常所说的5/7/14 nm 制程\footnote{制程，即集成电路(IC)内电路与电路之间的距离。距离愈小，密度愈高，意味着在同样大小面积的IC中，可以拥有密度更高、功能更复杂的电路设计。}；
+\item 先进的微架构，采用的技术比如流水线、分支预测、乱序执行等等；
+\item 高速缓存架构。
+\end{itemize}
+
+此外，我们常听到“睿频”这一专业名词。睿频是指CPU根据实际运行程序的需求，动态的增加处理器的运行频率来提高处理器的性能，同时保持处理器继续稳定运行在规定的功耗、电流、电压和温度范围内。睿频是CPU自动实现的，无需人工设置，并且CPU运行稳定。
+
+可以看到，在硬件，微架构，缓存架构，芯片驱动软件等等方面都有太多地方可以对CPU 晶体管利用率，能耗比，极限性能，芯片极限面积，甚至芯片软件开发时间等等方面做出优化，这些优化都会对传统意义上的“CPU性能”产生积极影响。\cite{Web/zhihu1}
+
+\subsection{\textbf{CPU的多核性能}}
+
+随着半导体工艺的不断发展进步，芯片上的晶体管密度不断提高。而得益于晶体管密度的提升，芯片设计师们有足够的空间，在保证合理的功率和能量范围的前提下，同时获得复杂的架构和更高的频率。以这样一种简单粗暴的思路，甚至可以只依靠晶体管的小型化简单粗暴添加更多内核，然后通过制程进步带来的更多的核心来提升CPU性能，也间接地降低了计算机的价格。
+
+此外，在这里解释一下“超线程”的概念。
+超线程(HT, Hyper-Threading)是英特尔研发的一种技术，于2002年发布。
+超线程技术把多线程处理器内部的两个逻辑内核模拟成两个物理芯片，让单个处理器就能使用线程级的并行计算，进而兼容多线程操作系统和软件。超线程技术充分利用空闲CPU资源，在相同时间内完成更多工作。 
+虽然采用超线程技术能够同时执行两个线程，当两个线程同时需要某个资源时，其中一个线程必须让出资源暂时挂起，直到这些资源空闲以后才能继续。因此，超线程的性能并不等于两个CPU的性能。而且，超线程技术的CPU需要芯片组、操作系统和应用软件的支持，才能比较理想地发挥该项技术的优势。
+
+CPU的多核发展至今，有以下两类架构：
+
+\begin{itemize}
+\item 对称多处理(Symmetric Multiprocessing, SMP)
+\subitem 每个处理器运行操作系统的相同副本；
+\subitem 许多进程可以立即运行不会降低性能；
+\subitem 多数现代操作系统支持SMP。
+\item 非对称多处理(Asymmetric Multiprocessing, ASMP)
+\subitem 各个处理器不对等；
+\subitem 分为主处理器和从处理器；
+\subitem 主处理器为从处理器安排任务；
+\subitem 一般用于特定的场景。\cite{os-book}
+\end{itemize}
+
+在很早之前，CPU的多核趋势就已经越来越明显。但是在半导体制程进步逐渐缓慢时，将不同的任务分别交给不同的核心可以更有效地利用CPU的性能，从而达到更高的能效比。但是，多核架构分为对称和非对称两种，其中各个核心如何分工，以及处理多核心间的通信延迟是目前提升CPU性能需要重点考虑的两个问题。一个普遍的观点是，上层的算法和调度方法会成为CPU性能的一个重要影响因素。\cite{Web/zhihu1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{主存储器的速度及其影响因素}\label{sec:RAM}
+
+在现代计算机中，当前计算机正在执行的程序和数据均存放在内存中，主存储器(内存)处于全机中心地位。我们现在使用的内存，绝大多数都是随机存储器(random access memory，RAM)，其最大的特点是可以通过指令可以随机地、个别地对各个存储单元进行访问(读写)，但是停电会造成信号丢失。其中，按存储元件在运行中能否长时间保存信息分为静态存储器(SRAM)和动态存储器(DRAM)两种。
+
+\subsection{\textbf{主存储器的主要技术指标}}
+
+主存储器的主要技术指标主要为容量、存取时间和存取周期。考虑到本文是有关速度的探究，所以主要关注后两者。
+
+\begin{itemize}
+\item 存储器存取时间(Memory Access Time)：又称存储器访问时间，
+是指启动一次存储器操作到完成该操作所经历的时间。
+\item 存储周期(Memory Cycle Time)：是指
+连续启动两次独立的存储器操作(例如连续两次读操作)所需间隔的最小时间。
+\end{itemize}
+
+通常来说，存储周期略大于存取时间。但是一般具有合适价格的主存储器能提供信息的速度总跟不上CPU的处理速度\footnote{这一点将在第\ref{sec:Difference}章作详细介绍。}。
+
+\subsection{\textbf{常见影响因素}}
+
+\mypara{频率}
+
+内存主频和CPU主频一样，用来表示内存的速度，它代表着该内存所能达到的最高工作频率，以MHz为单位来计量的。内存主频越高在一定程度上代表着内存所能达到的速度越快。
+
+内存本身并不具备晶体振荡器，因此内存工作时的时钟信号是由主板芯片组的北桥或直接由主板的时钟发生器提供的，也就是说内存无法决定自身的工作频率，其实际工作频率是由主板来决定的。
+
+\mypara{带宽}
+
+内存带宽是处理器可以从内存读取数据或将数据存储到内存的速率。内存带宽通常以字节/秒为单位表示，但对于自然数据大小不是8位的倍数的系统，这可能会有所不同。
+
+\textit{从参考资料\cite{Web/wiki-mb}中我们可以获得如下解释。}
+
+对于商用DDR SDRAM ， DDR2 SDRAM和DDR3 SDRAM内存，总带宽是以下值之乘积：
+\begin{itemize}
+    \item \textbf{基本DRAM时钟频率}
+    \item \textbf{每时钟的数据传输次数}：在“双倍数据速率”(DDR、DDR2、DDR3、DDR4)内存的情况下是两次
+    \item \textbf{内存总线(接口)带宽}：每个DDR、DDR2或DDR3内存接口都是64位。有时也被称为1个“行”
+    \item \textbf{接口数量}：现代PC通常使用两个内存接口(双通道模式)来实现有效的128位总线带宽
+\end{itemize}
+
+\textit{例如，一个计算机有两个通道的内存，每通道都配备运行在400MHz时钟频率的DDR2-800模块，则其理论最大内存带宽为：每秒400,000,000个时钟$\times$每个时钟2个通道$\times$每行64个位$\times$2个接口=每秒102,400,000,000(1024亿)比特(也就是12,800 MB/s或12.8 GB/s)。
+但是该理论最大内存带宽被称为“突发速率”，是不可持续的。}
+
+DDR，DDR2和DDR3模块的命名约定指定了最大速度(例如，DDR2-800)或最大带宽(例如，PC2-6400)。速度等级(800)不是最大时钟速度，而是它的两倍(1600，因为数据速率是加倍的)。带宽等级(6400)是使用64位每秒传输的最大兆字节数。在双通道模式中，这实际上是128位。因此，示例中的内存配置可以简化为：两个DDR2-800模块以双通道模式运行。
+
+
+\mypara{时序}
+
+内存时序是描述内存条性能的一种参数，一般存储在内存条的SPD中。
+一般数字“A-B-C-D”分别对应的参数是“CL-tRCD-tRP-tRAS”，它们的含义依次为：
+\begin{itemize}
+    \item CAS Latency(简称CL值)内存CAS延迟时间，它是内存的重要参数之一，某些牌子的内存会把CL值印在内存条的标签上;
+    \item RAS-to-CAS Delay(tRCD)，内存行地址传输到列地址的延迟时间;
+    \item RAS Precharge Delay(tRP)，内存行地址选通脉冲预充电时间;
+    \item Row Active Delay(tRAS)，内存行地址选通延迟。\cite{Web/crucial}
+\end{itemize}
+
+可以看出，这些数字都表示延迟，也就是内存的反应时间。当内存接收到CPU发来的指令后，通常需要几个时钟周期来处理它，比如访问某一块数据，这就对应时序参数。
+当然，处理时间越短，内存性能越好。
+\textit{下面引用参考资料\cite{Web/zhihu2}中的内容对上述参数作具体解释。}
+
+内存收到CPU的指令之后，要先确定数据具体在哪一行，时序的第二个参数tRCD就代表这个时间，意思就是内存控制器接收到行的指令后，需要等待多长时间才能访问这一行。
+由于每一行都有多个数据，内存并不能哪一个才是CPU需要找的，所以 tRCD只是一个估值，这也就是为什么小幅改动这个数值，并不会显著改变内存的性能。
+
+内存确定了数据所在的行之后，要想找出数据，还得确定列。时序的第一个数字也就是CL(CAS)，就表示内存确定了行数之后，还得等待多长时间，才能访问具体的列数(时间周期)。
+行列必然产生交点，也就是说确定了行数和列数之后，就能准确找到目标数据，所以 CL是一个准确的值，任何改动都会影响目标数据的位置，所以它在时序当中是最关键的一个参数，对内存性能的发挥着举足轻重的作用。
+
+内存时序的第三个参数tRP，就是如果我们已经确定了一行，还要再确定另外一行所需要等待的时间(时间周期)。
+
+第四个参数tRAS，可以简单理解成内存写入或者读取数据的一个时间，它一般接近于前三个参数的总和。
+
+所以， 在保障稳定性的前提下，内存时序越低越好，而高频率和低时序是个矛盾体，一般频率上去了，时序就得有所牺牲，要想足够低的时序，频率又很难拔高。
+时序改变后，内存延迟的变化比内存读写速度的变化更加明显，这也说明时序对内存的影响，更侧重在延迟方面。
+
+\mypara{接口类型}
+
+起初，内存是一块块的IC，焊接到主机板上才能正常使用，一旦某一块内存IC坏了，必须焊下来才能更换，这样很不方便。后来，出现了模块化的条装内存，上面集成了多块内存IC ，在主板上设计了内存插槽，内存条就可随意拆卸，内存的维修和扩充变得非常方便。(当然，目前许多笔记本电脑仍使用了板载内存，其中苹果公司M1系列芯片的统一内存即为一个例子。)由此，内存也就有了相应的接口类型。
+
+386时代，计算机开始使用内存条。内存条的接口类型从最初的FPM(快页式内存)，经历了EDO(extended data out，扩展数据输出)DRAM，SDRAM内存(synchronous dynamic RAM，同步动态内存)，RAMBUS DRAM多种类型。
+由于RDRAM的工艺复杂，价格过高，而且RAMBUS公司还要收取相应的版权费，再加上闹得沸沸扬扬的i820回收事件。
+其它厂家出于市场考虑，根据RAMBUS双向脉冲的特点，提出了DDR SDRAM，也就是我们现在最主流的内存条。
+
+DDR SDRAM(Dual date rate SDRAM)简称DDR内存，也就是“双倍速率SDRAM”的意思。
+DDR内存在时钟信号上升沿与下降沿各传输一次数据，这使得DDR的数据传输速度为传统SDRAM的两倍。DDR内存的引脚数为184线，工作电压仅为2.5V，因而功耗亦随之减少。
+
+虽然DDR5在内存市场上还比较少见，但是在显卡上DDR5已经被广泛地使用了。DDR5是JEDEC在2020年7月公布的新一代内存标准，目前最新的英特尔酷睿12代平台支持该标准，与目前广泛使用的DDR4内存相比性能更强，功耗更低，频率起步4800MHz，电压从1.2V降低到1.1V，同时集成了集成电源管理芯片PMIC，支持内存纠错机制ECC。\cite{Web/jedec}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{辅助存储器的速度及其影响因素}\label{sec:DISK}
+
+当前市场上流行的辅助存储器主要有磁表面存储器(主要代表为磁盘)以及采用半导体存储介质和传统磁盘接口的存储器(即固态盘)，他们的速度要远远慢于内存。
+我们都知道，CPU读取位于不同位置的数据所耗费的代价是不同的。
+有一个很直观的数据可以说明这个问题：如果程序需要的数据存储在CPU的寄存器内，那么在指令的执行期间，在0个周期内就可以访问到；如果存储在高速缓存(cache)中，需要4-75个周期；如果存储在主存中，需要上百个周期；如果存储在磁盘上，需要大约几千万个周期\cite{CSAPP}。
+
+接下来将以磁盘和固态盘为代表，简要说明其速度及其影响因素。
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{\textbf{磁盘(机械硬盘)}}
+
+\mypara{寻址时间}
+
+磁盘采取直接存取方式，寻址时间包括两部分：
+\begin{itemize}
+    \item $t_s$：磁头寻找目标磁道所需的找道时间
+    \item $t_w$：找到磁道以后，磁头等待所需要读写的区段旋转到它的下方所需要的等待时间。
+\end{itemize}
+
+寻找相邻磁道和从最外面磁道找到最里面磁道所需的时间不同，磁头等待不同区段所花的时间也不同，取它们的平均值，称作平均寻址时间$T_a$，由平均找道时间$t_{sa}$和平均等待时间$t_{wa}$组成：
+$$
+	T_a=T_{sa}+T_{wa}=\frac{t_{smax}+t_{smin}}{2}+\frac{t_{wmax}+t_{wmin}}{2}
+$$
+
+\mypara{数据传输率}
+
+磁表面存储器在单位时间内与主机之间传送数据的位数或字节数，叫数据传输率$D_r$。
+为确保主机与磁表面存储器之间传输信息不丢失，传输率与存储设备和主机接口逻辑两者有关。
+\begin{itemize}
+    \item 从设备方面考虑，传输率等于记录密度$D$和记录介质的运动速度$V$的乘积。
+    \item 从主机接口逻辑考虑，应有足够快的传送速度接收/发送信息，以便主机与辅存之间的传输正确无误。
+\end{itemize}
+
+\mypara{转速}
+
+当硬盘运行时，磁头沿着盘片的半径方向运动，盘片以每分钟上千转的速度旋转，磁头就可以在盘片的指定位置上进行数据的读写操作。
+因此，机械硬盘的转速指的是内部电机主轴的旋转速度，衡量转速的单位为RPM(Revolutions Per Minute，即转/分)，硬盘转速越快，访问数据的时间就越短，硬盘的数据传输率一般就越快。
+
+目前市面上常见的机械硬盘转速有5400rpm和7200rpm。单从转速上看，7200rpm硬盘的盘片每转一圈耗时8.33毫秒左右，5400rpm硬盘每转一圈耗时11.11毫秒左右，前者领先15\%左右，不过这一性能提升在日常使用中并不会有十分显著的体现(因为日常使用的场景中对硬盘的顺序读写性能要求远没有对随机读写能力那么高)。
+
+随着转速的提高，不仅是速度在提升，噪音和发热量也会随之显著增加。目前来说，常见的消费级硬盘多为5400rpm或7200rpm，转速过万的产品更多时候出现在企业中。
+
+\subsection{\textbf{固态盘}}
+
+固态盘(SSD)采用闪存作为存储介质，速度相对机械硬盘更快。固态硬盘厂商大多会宣称自家的固态硬盘持续读写速度超过了500 MB/s，近年来的NVMe固态硬盘可达到2000 MB/s左右，甚至4000 MB/s以上。固态硬盘的快不仅仅体现于持续读写上，还体现在随机读写速度快。此外，固态硬盘不需要磁头，读取速度更快。最常见的7200转机械硬盘的寻道时间一般为12-14毫秒，而固态硬盘可以轻易达到0.1毫秒甚至更低。
+
+影响固态硬盘性能的几个因素主要在于主控芯片、闪存介质以及是否设置有缓存。在上述条件相同的情况下，采用何种接口也可能会影响SSD的性能。
+
+\mypara{主控芯片}
+
+市面上比较常见的固态硬盘有多种主控芯片，如Sandisk、Samsung、Intel等。主控芯片可以看作是固态硬盘的大脑，其作用一是合理调配数据在各个闪存芯片上的负荷，二则是承担了整个数据中转，连接闪存芯片和外部接口。不同的主控之间能力相差非常大，在数据处理能力、算法，对闪存芯片的读取写入控制上会有非常大的不同，直接会导致固态硬盘产品在性能上差距高达数倍。
+
+\mypara{闪存介质}
+
+现在主流的固态硬盘大多采用NAND闪存为核心。在固态硬盘的电路板上，闪存颗粒占据了大部分的空间。
+
+NAND 闪存芯片又分为SLC、MLC、TLC、QLC这四种规格。如\figref{fig:slc-mlc-tlc}展示了SLC、MLC、TLC浮动栅存储容量的关系。
+\begin{figure}
+  	\begin{overpic}[width=\columnwidth]{SLC-MLC-TLC.jpg}\end{overpic}
+    \caption{SLC MLC TLC 示意图\cite{Web/NAND}。}\label{fig:slc-mlc-tlc}
+\end{figure}
+\begin{itemize}
+    \item SLC(Single-Level Cell，单层单元)，即1bit/cell，
+    利用正、负两种电荷，一个浮动栅存储1个bit的信息，约10万次擦写寿命。速度快，寿命长，价格贵(约MLC 3倍以上的价格)。
+    \item MLC(Multi-Level Cell，双层单元)，即2bit/cell，
+    利用不同电位的电荷，一个浮动栅存储2个bit的信息，约5000-10000次擦写寿命。速度一般，寿命一般，价格一般。
+    \item TLC(Trinary-Level Cell，三层单元)，即3bit/cell，
+    利用不同电位的电荷，一个浮动栅存储3个bit的信息，约500-1000次擦写寿命。也有Flash厂家叫8LC，速度慢，寿命短，价格便宜。
+    \item QLC(Quad-Level Cell，四层单元)，即4bit/cell。
+    支持16充电值，速度最慢寿命最短，目前中技术上在研发阶段，但是intel、三星电子等厂商都已经取得了不错的进展。但在SSD应用中目前仍不现实。
+\end{itemize}
+
+相对于SLC来说，MLC的容量大了100\%，寿命缩短为SLC的1/10。相对于MLC来说，TLC的容量大了50\%，寿命缩短为MLC的1/20。
+
+\mypara{缓存}
+主控芯片旁边是缓存颗粒，固态硬盘和传统硬盘一样需要高速的缓存芯片辅助主控芯片进行数据处理。有一些廉价固态硬盘方案为了节省成本，省去了缓存芯片，这对于性能会有一定的影响，尤其是小文件的读写性能和使用寿命上。
+
+\mypara{接口与协议}
+
+\begin{table*}[]\centering
+\begin{tabular}{cccccccc}
+\hline
+版本 & 推出时间 & 原始传输率    & 带宽×1      & 带宽×2     & 带宽×4     & 带宽×8      & 带宽×16    \\ \hline
+1  & 2003 & 2.5 GT/s  & 250 MB/s   & 0.50 GB/s & 1.0 GB/s  & 2.0 GB/s   & 4.0 GB/s  \\
+2  & 2007 & 5.0 GT/s  & 500 MB/s   & 1.0 GB/s  & 2.0 GB/s  & 4.0 GB/s   & 8.0 GB/s  \\
+3  & 2010 & 8.0 GT/s  & 984.6 MB/s & 1.97 GB/s & 3.94 GB/s & 7.88 GB/s  & 15.8 GB/s \\
+4  & 2017 & 16.0 GT/s & 1969 MB/s  & 3.94 GB/s & 7.88 GB/s & 15.75 GB/s & 31.5 GB/s \\ \hline
+\end{tabular}
+\caption{PCI Express 总线性能\cite{Web/wiki-pcie}。}\label{table:pcie}
+\end{table*}
+
+\begin{table}[]\centering
+\begin{tabular}{ccc}
+\hline
+版本           & 带宽      & 理论速度    \\ \hline
+SATA Express & 16 Gb/s  & 1969 MB/s  \\
+SATA 3.0     & 6 Gb/s   & 600 MB/s     \\
+SATA 2.0     & 3 Gb/s   & 300 MB/s     \\
+SATA 1.0     & 1.5 Gb/s & 150 MB/s   \\ \hline
+\end{tabular}
+\caption{SATA 总线性能\cite{Web/wiki-sata}。}\label{table:sata}
+\end{table}
+
+对于固态盘来说，不仅仅是颗粒(介质)阻碍了速度，实际上硬盘采用了何种协议、使用了哪种总线也可能阻碍了固态理论上能达到的速度。我们常说的SATA、PCIe、NVMe、M.2等名词，都或多或少对硬盘的速度有影响。
+
+\begin{itemize}
+    \item \textbf{PCIe}(Peripheral Component Interconnect Express，PCI-Express)是继ISA和PCI总线之后的第三代I/O总线。PCIe协议是一种端对端的互连协议，提供了高速传输带宽的解决方案。
+    目前PCIe已经发展到第四代PCIe4.0(目前市面上可见的最高为PCIe 4.0)，每一代的发展，最明显的特征就是速率翻倍。
+    典型 PC 主板上的 PCIe 4.0 扩展槽有四种不同类型：PCIe x1、PCIe x4、PCIe x8 和 PCIe x16。 这些数字表示每个 PCIe 插槽有多少个通道。 
+    PCIe 插槽的通道越多，传输带宽就越高，具体速率如表\ref{table:pcie}所示。
+    \item \textbf{SATA}(Serial ATA)是一种电脑总线，
+    负责主板和大容量存储装置(如硬盘及光驱)之间的数据传输。
+    SATA总线的速率如表\ref{table:sata}所示。
+    \item \textbf{M.2}接口是一种新的主机接口方案，可以兼容多种通信协议，如SATA、PCIe等。
+    M.2接口是为超极本量身定做的新一代接口标准，以取代原来的mSATA接口。无论是更小巧的规格尺寸，还是更高的传输性能，M.2都远胜于mSATA。
+    \item \textbf{NVM Express(NVMe)}，或称非易失性内存主机控制器接口规范，是一个逻辑设备接口规范，
+    专为NAND 闪存等非易失性存储设计。NVMe在很大程度上实现了并行性，极大地提高了吞吐量，能够使固态硬盘运行得更快，如\figref{fig:nvme}所示为HDD、SATA、NVMe最高提供的理论速度对比。
+\end{itemize}
+
+\begin{figure}
+  	\begin{overpic}[width=\columnwidth]{nvme.jpg}\end{overpic}
+    \caption{HDD能达到的最高理论速度，与SATA、NVMe最高提供的理论速度对比\cite{Web/nvme}。}\label{fig:nvme}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{计算机各部件速度差异的匹配}\label{sec:Difference}
+
+\begin{figure}
+  	\begin{overpic}[width=\columnwidth]{level.png}\end{overpic}
+    \caption{存储层次。}\label{fig:level}
+\end{figure}
+
+
+CPU发展迅速，计算能力不断提高，速度越来越快，但是外围设备却无法运行的更快，于是产生了高速缓存(cache)、主存储器、固态盘、磁盘等一系列的硬件，这些硬件的速度分布呈金字塔形(如\figref{fig:level}所示)，由它们组成了存储器系统。
+
+如\figref{fig:cmp}所示，我们对比CPU和存储器的特性以及价格可以发现，随着技术水平 的提高，速度、容量均在提高而(每兆)价格均在降低，且存储器的发展速度是远大于中央处理器的。
+
+实际上，存储器系统是一个具有不同容量、成本和访问时间的存储设备组成的层次结构。CPU的寄存器保存着最常用的数据。靠近CPU的小的、快速的高速缓存存储器作为一部分存储在相对慢速的主存储器中数据和指令的缓冲区域。主存缓存存储在容量较大的、慢速磁盘上的数据，而磁盘常常又作为存储在网络连接的其他机器的磁盘或磁带上的数据的缓冲区域。\cite{CSAPP}
+
+存储器层次结构是可行的，这是因为与下一个更低层次的存储设备相比来说，一个编写良好的程序倾向于更频繁地访问某一个层次上的存储设备。所以，下一层的存储设备可以更慢速一点，也因此可以更大，每个比特位更便宜。整体效果是一个大的存储器池，其成本与层次结构底层最便宜的存储设备相当，但是却以接近于层次结构顶部存储设备的高速率向程序提供数据。\cite{CSAPP}
+
+
+\begin{figure}
+  	\begin{overpic}[width=\columnwidth]{compare.png}\end{overpic}
+    \caption{CPU和存储器的特性以及价格比较。}\label{fig:cmp}
+\end{figure}
+
+事实上，高速缓存也分了三种类型，称为一级缓存(L1)、二级缓存(L2)、三级缓存(L3)，
+三级缓存在CPU和内存之间建立了数据通路，使得数据可以很快地在CPU(的寄存器)和内存中交换。
+最接近CPU(中的寄存器)的就是L1，它提供了足够高的速度来满足CPU运行的需求，但是其发热很大，无法做的更大。
+于是L1周围又有了L2，降速提高容量，同时降低内存延迟。
+L3其实和内存的地位接近，有时候数据可以不经过L3(即L3缓存不是必需的)，不过如果数据在L3中则可以提高性能，进一步降低内存延迟。
+一般来说，L1可分为数据缓存和指令缓存，为单个核心所有；L1和L2都可以整合至CPU内部；L3则是所有的核心共享一份缓存。
+硬盘等之所以称之为“外存”，是因为CPU需要先把外存的数据和指令加载到内存中，才可以使用。
+这一级级的缓存，就是速度的降低，容量的增大，同时也是计算机系统解决速度不匹配的一个重要手段。
+
+这种缓存技术不仅仅存在于CPU和主存之间，而是广泛存在于速度、容量、价格存在差距的地方。上面第\label{sec:RAM}章提到的SSD的缓存正是这一思路，可以很好地减少等待时间；在NAS中，使用多块大容量的机械硬盘作为主要的存储介质，增加一个固态盘作为缓存可以显著提升访问速度，也是缓存技术的一个应用。
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{总结}\label{sec:Conclusion}
+
+本文针对中央处理器与存储器系统速度及影响因素，以及计算机系统对于不平衡的速度差距是如何解决的这两个问题进行了总结和整理。
+总体来说，作为程序员，理解存储器的层次结构，认识到缓存技术在计算机系统中的重要作用是十分重要的。这是一种基本而持久\cite{CSAPP}的思想，对于如何使得自己的程序更为高效，更好地理解操作系统中的有关概念都有十分重要的帮助。
+
+
+% \cleardoublepage \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else \hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{main}
+}
+
+% @electronic{标识符,
+%     url     =   {{网址}},
+%     title   =   {{网站标题}}
+% }
+% @book{标识符,
+%     title  = {{书籍标题}},
+%     author = {{姓, 名 and ... and 姓, 名}},
+%     publisher = {{出版社名称}},
+%     year    =   {年份}
+% }
+% @inproceedings{标识符,
+%     author      =   {{姓, 名 and 姓, 名 and ... and 姓, 名}},
+%     title       =   {{论文标题}},
+%     booktitle   =   {{会议论文集名称或会议名称}},
+%     pages       =   {起始页码--终止页码},
+%     year        =   {年份}
+% }
+% @article{标识符,
+%     author  =   {{姓, 名 and 姓, 名 and ... and 姓, 名}},
+%     title   =   {{论文标题}},
+%     journal =   {{期刊名称}},
+%     volume  =   {卷号},
+%     number  =   {期号},
+%     pages   =   {起始页码--终止页码},
+%     year    =   {年份}
+% }
+
+% \end{CJK*}
+\end{document}

@@ -1,0 +1,15 @@
+6 e 7
+6 e 4
+4 e 2
+4 e 0
+0 a 1
+2 b 3
+1 e 5
+3 e 5
+5 e 4
+5 e 7
+7 a 8
+8 b 9
+9 b 10
+start state: 6
+accepting states: 10
