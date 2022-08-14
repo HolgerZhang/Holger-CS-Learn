@@ -14,5 +14,8 @@ CS learning materials of SUDA by Holger.
 - 算法分析与设计 *[Algorithm](Algorithm/)*
 - 计算机网络 *[Computer-Network](Computer-Network/)*
 - 人工智能与知识工程 *[Artificial-Intelligence](Artificial-Intelligence/)*
-- 待续...
+- 微型计算机技术 *[Microcomputer](Microcomputer)*
+- 软件工程综合实践 *[Software-Engineer](Software-Engineer)*
+- 文献阅读与科技写作
+- 工程经济
 
